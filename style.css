@@ -1,0 +1,544 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#page1{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.prismic.io/yubo/6118791b-2978-4f39-bc06-0d5d43cd6e93_LargeGraphics.webp?auto=compress,format&rect=0,0,1600,900&w=1680&h=945);
+    background-size: cover;
+    background-position: center;
+}
+#page1 #nav{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgba(255, 0, 0, 0.437); */
+    padding: 30px;
+    position: fixed;
+    z-index: 9;
+}
+#page1 img{
+    height: 75px;
+}
+#page1 #nav-right{
+    background-color: #000;
+    width: 120px;
+    height: 55px;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    /* background-color: blue; */
+}
+#page1 #nav-right i{
+    font-size: 30px;
+    color: #fff;
+}
+#page1 i{
+    font-size: 30px;
+    color: #fff;
+}
+#nav #nav-right i:nth-child(1){
+    /* background-color: red; */
+    padding-right: 15px;    
+    border-right: 2px solid #fff;
+}
+
+#page1 #txt{
+    width: 80%;
+    height: calc(100% - 220px);
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* background-color: rgba(255, 0, 0, 0.537); */
+}
+#page1 #txt h1{
+    font-size: 135px;
+    font-family: fonty;
+    font-weight: 500;
+    color: #FFE30A;
+    line-height: 120px;
+}
+#page2{
+    width: 100%;
+    height: calc(100% + 120px);
+    display: flex;
+    position: relative;
+    background-color: #FFE30A;
+}
+#page2 #page2-part1{
+    width: 54%;
+    height: 100%;
+    position: relative;
+}
+
+#page2 #page2-part1 #txt{
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+    /* background-color: red; */
+}
+#page2 #page2-part1 #txt h1{
+    font-size: 120px;
+    font-family: fonty;
+    font-weight: 600;
+    line-height: 120px;
+}
+#page2 #page2-part1 #txt #btm-content{
+    width: 65%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+#page2 #page2-part2{
+    width: 46%;
+    height: 100%;
+    position: relative;
+}
+#page2 #page2-part2 img{
+    height: calc(100% - 120px);
+    position: absolute;
+    bottom: 0;
+}
+#page2 #page2-part2 #img01{
+    position: absolute;
+    height: 140px;
+    left: -20%;
+    top: 53%;
+    transform: translate(0, -50%);
+    z-index: 1;
+}
+#page2 #page2-part2 #img02{
+    position: absolute;
+    height: 130px;
+    left: 37%;
+    top: 28%;
+    z-index: 2;
+}
+#page2 #page2-part2 #img03{
+    position: absolute;
+    height: 100px;
+    left: -20%;
+    top: 70%;
+    z-index: 2;
+}
+#page2 #page2-part2 #img04{
+    position: absolute;
+    height: 190px;
+    left: 45%;
+    bottom: 0;
+    z-index: 2;
+}
+#page2 #page2-part2 #img05{
+    position: absolute;
+    height: 100px;
+    left: 60%;
+    top: 66%;
+    z-index: 2;
+}
+#page3{
+    width: 100%;
+    height: 100%;
+    background-color: #FFE30A;
+    background-image: url(https://www.yubo.live/assets/img/black-cloud-homepage.svg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page3-part1{
+    width: 40%;
+    height: 40%;
+}
+
+#page3-part1 h1{
+    font-size: 120px;
+    font-weight: 600;
+    font-family: fonty;
+    line-height: 120px;
+    color: #FFE30A;
+    padding-top: 5%;
+}
+#page3-part2{
+    width: 40%;
+    height: 40%;
+}
+#page3-part2 p{
+    font-size: 28px;
+    color: #fff;
+    font-family: gilroy;
+    padding-top: 18%;
+}
+#page3-part2 button{
+    width: 180px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 55px;
+    background-color: #FFE30A;
+    color: #151400;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid #FFE30A;
+    transition: all ease 0.5s;
+}
+#page3-part2 button:hover{
+    color: #FFE30A;
+    background-color: #151400;
+}
+#page4{
+    width: 100%;
+    height:calc( 100% + 140px);
+    background-image: url(https://www.yubo.live/assets/img/black-cloud-homepage.svg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+#page4-part1{
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+#page4-part1-text{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    /* background-color: red; */
+
+}
+#page4-part1 img{
+    height: 50%;
+    position: absolute;
+    right: 13%;
+}
+#page4-part1-text p{
+    font-size: 28px;
+    font-weight: 500;
+    color: #fff;
+    font-family: gilroy;
+}
+#page4-part1 button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 60px;
+    background-color: #FFE30A;
+    color: #151400;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid #FFE30A;
+    transition: all ease 0.5s;
+}
+#page4-part1 button:hover{
+    color: #FFE30A;
+    background-color: #151400;
+}
+#page4-part2{
+    width: 35%;
+    height: calc(100% - 140px); 
+}
+#page4-part2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    object-fit: cover;
+}
+#page5{
+    width: 100%;
+    height: 400px;
+    background-color: #151400;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 150px;
+}
+#page5 h1{
+    font-size: 120px;
+    font-weight: 600;
+    font-family: fonty;
+    line-height: 120px;
+    color: #FFE30A;
+}
+
+#page5 button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #FFE30A;
+    color: #151400;
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid #FFE30A;
+    transition: all ease 0.5s;
+}
+#page5 button:hover{
+    color: #FFE30A;
+    background-color: #151400;
+}
+#page5 img{
+    width: 80px;
+}
+
+#page6{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://www.yubo.live/assets/img/purple-cloud.svg);
+    background-size: cover;
+    background-color: #151400;
+    position: relative;
+}
+
+#page6-part1{
+    width: 40%;
+    height: 75%;
+    position: absolute;
+    border-radius: 50px;
+    background-color: #FFE30A;
+    background-image: url(https://images.prismic.io/yubo/4e7a5333-9e65-4a60-a2d1-7b9680e002f2_Blog_CommunityTipsAndTricks.png?auto=compress,format);
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    right: 14%;
+}
+#overlay1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 50px;
+    background-color: #000000a1;
+}
+#overlay1 h1{
+    font-size: 52px;
+    font-weight: 600;
+    font-family: fonty;
+    color: #fff;
+    margin-top: 48%;
+    margin-left: 8%;
+    line-height: 50px;
+}
+
+#overlay1 h2{
+    position: absolute;
+    top: 4%;
+    left: 8%;
+    padding: 8px 14px;
+    background-color: #FF5252;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: fonty;
+}
+
+#page6-part2{
+    width: 25%;
+    height: 75%;
+    background-image: url(https://images.prismic.io/yubo/42e1a41b-e054-4f52-a214-e3ea5e475aa4_Blog_Yubo+Horoscope.png?auto=compress,format);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    border-radius: 50px;
+    z-index: 2;
+}
+#overlay2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 50px;
+    background-color: #000000a1;
+}
+#overlay2 h1{
+    font-size: 52px;
+    font-weight: 600;
+    font-family: fonty;
+    color: #fff;
+    position: absolute;
+    bottom: 18%;
+    left: 8%;
+}
+#overlay2 h2{
+    position: absolute;
+    top: 4%;
+    right: 8%;
+    padding: 8px 15px;
+    background-color: #976BFF;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: fonty;
+}
+
+#page6-part3{
+    width: 30%;
+    height: 75%;
+    background-image: url(https://images.prismic.io/yubo/f34dcf26-d146-4205-ab86-46e4daef0781_Blog_Community+Building+and+Making+Friends+on+Yubo.png?auto=compress,format);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 85%;
+    right: 20%;
+    border-radius: 50px;
+    z-index: 2;
+}
+#overlay3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 50px;
+    background-color: #000000a1;
+}
+#overlay3 h1{
+    font-size: 52px;
+    font-weight: 600;
+    font-family: fonty;
+    color: #fff;
+    position: absolute;
+    bottom: 18%;
+    left: 8%;
+    line-height: 50px;
+}
+#overlay3 h2{
+    position: absolute;
+    top: 4%;
+    left: 8%;
+    padding: 8px 15px;
+    background-color: #FFE30A;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: fonty;
+}
+.btm{
+    width: 90%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    position: absolute;
+    bottom: 5%;
+    left: 8%;
+}
+.btm h3{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: gilroy;
+    color: #fff;
+}
+
+#page7{
+    width: 100%;
+    height: 120%;
+    background-color: #976BFF;
+    position: relative;
+}
+
+#page7 img{
+    position: absolute;
+    width: 43%;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+#footer{
+    width: 100%;
+    height: 103%;
+    background-image: url(https://www.yubo.live/assets/img/footer-bg.svg);
+    background-size: cover;
+    background-color: #976BFF;
+    background-position: center;
+}
+#footer-part1{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
+.footer-table{
+    width: auto;
+    height: 100%;
+}
+
+#footer .footer-table h1{
+    font-size: 28px;
+    font-family: fonty;
+    padding: 30px 0px ;
+}
+#footer .footer-table h2{
+    font-size: 19px;
+    color: #313131;
+    font-family: gilroy;
+    font-weight: 500;
+    /* padding-left: 30px; */
+    padding-top: 5px;
+}
+#footer-part2{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 18px;
+}
+#footer-part2 i{
+    font-size: 32px;
+    border-radius: 50%;
+    padding: 8px 10px;
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    margin-left: 15px;
+}
+#footer-part3{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+}
+#footer #footer-part3 #part{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+#footer-part3 h3{
+    font-family: fonty;
+    font-size: 17px;
+    font-weight: 600;
+    color: #1A202C;
+}
+
+#footer-part3 h4{
+    color: #000;
+    font-weight: 17px;
+    font-family: gilroy;
+    font-weight: 500;
+}
+@font-face {
+    font-family: fonty;
+    src: url(./RightGrotesk-CompactBlack.otf);
+}
